@@ -61,7 +61,7 @@ fun RegisterPage(modifier: Modifier = Modifier) {
             onValueChange = { password = it })
         Spacer(modifier = Modifier.size(24.dp))
 
-        DataField(description = "Confirm Password",
+        PasswordField(description = "Confirm Password",
             value = confirmPassword,
             onValueChange = { confirmPassword = it })
         Spacer(modifier = Modifier.size(150.dp))
