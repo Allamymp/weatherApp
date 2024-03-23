@@ -65,7 +65,7 @@ fun HomePage(modifier: Modifier = Modifier) {
             },
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(vertical = 16.dp), // Adiciona espaçamento vertical
+                .padding(vertical = 16.dp),
             colors = ButtonDefaults.buttonColors(MaterialTheme.colorScheme.error)
         ) {
             Text(
